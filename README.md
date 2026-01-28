@@ -1,2 +1,0 @@
-# RippTide
-Crypto Ticker: RIPT
