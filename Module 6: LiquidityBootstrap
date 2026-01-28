@@ -1,0 +1,4 @@
+LiquidityBootstrap {
+  pair: Address
+  amount: UInt
+}
