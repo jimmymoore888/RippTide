@@ -1,0 +1,6 @@
+VestingSchedule {
+  cliff: UInt
+  duration: UInt
+  recipients: [Address]
+  amount: UInt
+}
