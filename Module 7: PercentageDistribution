@@ -1,0 +1,4 @@
+PercentageDistribution {
+  percentage: UInt
+  recipients: [Address]
+}
