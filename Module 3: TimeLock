@@ -1,0 +1,3 @@
+TimeLock {
+  duration: UInt
+}
