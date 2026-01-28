@@ -1,0 +1,4 @@
+Airdrop {
+  recipients: [Address]
+  amount: UInt
+}
