@@ -1,0 +1,32 @@
+LAW_VERSION: 1.0
+
+INVARIANT_1_SUPPLY_FINALITY:
+  IF SUPPLY.TYPE == FIXED:
+    - TOTAL_SUPPLY is minted ONCE at deployment
+    - NO function may increase TOTAL_SUPPLY after deployment
+    - NO callable mint entrypoint exists post-deploy
+
+INVARIANT_2_SUPPLY_CAP:
+  IF SUPPLY.TYPE == CAPPED:
+    - TOTAL_SUPPLY <= MAX_SUPPLY at all times
+    - Minting MUST revert if MAX_SUPPLY would be exceeded
+
+INVARIANT_3_BURN_LIMIT:
+  IF BURN.MODE == AUTOMATED:
+    - BURNED_SUPPLY <= (CAP_PERCENT / 100) * TOTAL_SUPPLY
+    - Burn execution MUST halt permanently at cap
+
+INVARIANT_4_TIMELOCK_DETERMINISM:
+  IF TIMELOCK.ENABLED == true:
+    - Unlocks occur ONLY on defined schedule
+    - No admin override, pause, or acceleration is permitted
+    - Missed windows relock until next cycle
+
+INVARIANT_5_DISTRIBUTION_CONSERVATION:
+  - LP_PERCENT + AIRDROP_PERCENT + SAVINGS_PERCENT == 100
+  - No undisclosed allocations permitted
+  - No post-deploy redistribution permitted
+
+INVARIANT_6_AUTHORITY_NULLIFICATION:
+  - No privileged role may modify supply, burn, timelock, or distribution
+  - Ownership MAY exist only for metadata or view functions
