@@ -7,7 +7,7 @@ use near_sdk::json_types::U128;
 pub use factory::Factory;
 
 #[near_bindgen]
-#[derive(PanicOnDefault)]
+#[derive(BorshDeserialize, BorshSerialize, PanicOnDefault)]
 pub struct Contract {
     factory: Factory,
     total_supply: Balance,
