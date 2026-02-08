@@ -1,1 +1,0 @@
-/home/runner/work/Near-Instersect/Near-Instersect/contract/target/wasm32-unknown-unknown/release/near_intersect_factory.wasm: /home/runner/work/Near-Instersect/Near-Instersect/contract/src/factory.rs /home/runner/work/Near-Instersect/Near-Instersect/contract/src/lib.rs
