@@ -6,7 +6,13 @@ use near_sdk::collections::LookupMap;
 use near_sdk::json_types::U128;
 
 pub use factory::Factory;
-
+pub use oim::{
+    InflationIndex,
+    OimConfig,
+    OimMode,
+    OimState,
+    OimStatus,
+};
 #[near_bindgen]
 #[derive(BorshDeserialize, BorshSerialize, PanicOnDefault)]
 pub struct Contract {
