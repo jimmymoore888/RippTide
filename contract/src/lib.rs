@@ -16,6 +16,7 @@ pub use oim::{
 #[near_bindgen]
 #[derive(BorshDeserialize, BorshSerialize, PanicOnDefault)]
 pub struct Contract {
+    oim: oim::Oim,
     factory: Factory,
     total_supply: Balance,
     circulating_supply: Balance,
