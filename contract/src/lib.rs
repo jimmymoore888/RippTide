@@ -49,6 +49,7 @@ impl Contract {
 
         Self {
             factory: Factory::new(),
+            oim: oim::Oim::new(),
             total_supply: total,
             circulating_supply: circulating,
             locked_supply: locked,
