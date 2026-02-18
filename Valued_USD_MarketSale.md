@@ -33,7 +33,11 @@ Any purchase price, partnership terms, or licensing value for **RagTuff** and **
 See `CONTACT.md` for commercial inquiries.
 
 ## instituional, enterprise, firm 
- 
-these buyers from a instituional point of view or Enterprise 
-estimated value can be in the eight figures and scale up to nine figures easily. 
+
+eight figures and scale up to nine figures easily + 
+example below 
+$70,000,000.00 USD 
+$600,000,000.00 USD 
+prices above is not a valuation of a term sale its just a ball park analysis
+
 
