@@ -1,4 +1,24 @@
-	•	constitution/LAW_VALIDATION.md
+# Constitution Index (v0)
+
+This folder is the immutable reference stack for Near-Intersect.
+
+Canonical order:
+1) LAW_VALIDATION.md
+2) REGISTRY_CERTIFICATION_DEPLOYMENT.md
+3) DIAGNOSTIC_GRAPH_v0.md
+4) ENFORCEMENT_MATRIX_v0.md
+5) ENFORCEMENT_MATRIX_TESTPLAN_v0.md
+6) OIM.md
+7) OIM_INVARIANTS.md
+8) OIM_INTERFACE.md
+9) OIM_BINDING.md
+
+Integrity:
+- See MANIFEST_SHA256.txt
+
+
+
+    •	constitution/LAW_VALIDATION.md
 	•	constitution/REGISTRY_CERTIFICATION_DEPLOYMENT.md
 	•	constitution/DIAGNOSTIC_GRAPH_v0.md
 	•	constitution/ENFORCEMENT_MATRIX_v0.md
